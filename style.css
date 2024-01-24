@@ -201,12 +201,37 @@ p {
    
 }
 
+.about-item.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
 .about-content {
     text-align: left;
 }
 
 .about-content.center {
     text-align: center;
+    
+}
+
+
+.funder-link { 
+    display: grid;
+    justify-self: center;
+}
+
+.funder-logo-image {
+    display: grid;
+   justify-self: center;
+    width: 10rem;
+    padding: 1rem 0 1rem 0;
+    
+}
+
+.funder-logo-image.r-bar {
+    height: 6rem;
 }
 
 
@@ -639,7 +664,11 @@ nav {
         
     }
 
-
+    .about-item.grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
    
 
 
