@@ -189,6 +189,7 @@ p {
 }
 
 
+
 .about-item {
     display: grid;
     grid-template-columns: 1fr;
@@ -238,6 +239,12 @@ p {
 .subheader {
     margin: 0;
     padding: 0;
+}
+
+.subheader.season {
+    text-decoration: underline;
+    font-size: 1rem;
+
 }
 
 h1.header.watch {
