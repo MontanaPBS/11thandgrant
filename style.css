@@ -537,7 +537,7 @@ p.provided-text {
     align-items: center;
     align-content: center;
     background-color: black;
-    padding: 2rem 0 2rem 0;
+    padding: 0rem 0 7rem 0;
   
 }
 
@@ -605,12 +605,8 @@ nav {
 
 .footer-links {
     display: grid;
-   grid-template-columns: 1fr 4fr 1fr;
-   grid-template-rows: 1fr 1fr 1fr;
-   grid-template-areas:
-   "a b c"
-   "d e f"
-   "g h i";
+   
+  
     
     width: 100%;
     
@@ -621,6 +617,14 @@ nav {
     align-self: center;
     justify-self: center;
     max-width: 15rem;
+    padding-bottom: 1rem;
+}
+
+.logo-image.social-link {
+    grid-area: b;
+    align-self: center;
+    justify-self: center;
+    max-width: 3rem;
     padding-bottom: 1rem;
 }
 
