@@ -51,12 +51,14 @@ h1 {
 }
 
 h2 {
+    
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
     text-transform: uppercase;
     font-size: 1.3rem;
     color: rgb(255, 255, 255);
+    margin: 0;
 }
 
 h3 {
@@ -83,6 +85,10 @@ p {
     font-style: normal;
     margin: 0;
     font-size: 1.1rem;
+    color: white;
+}
+
+a {
     color: white;
 }
 
@@ -432,7 +438,25 @@ h2.subheader.preview {
 }
 
 
+/*Staff Section*/
 
+
+.title {
+    padding: 1rem 0 0 0;
+}
+
+.staff-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: start;
+    justify-items: center;
+    padding: 0 0 4rem 0;
+}
+
+.staff-image {
+    max-width: 20rem;
+    border-radius: 0 0 0 30%;
+}
 
 
 .portrait-image {
@@ -867,9 +891,17 @@ nav {
         
     }
 
-  
+    /*Staff Section*/
+
+    .staff-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
 
+    .staff-content {
+        text-align: left;
+      }
 }
 
 
