@@ -196,6 +196,12 @@ a {
 
 }
 
+.subheader.underline {
+    text-decoration: underline;
+    font-size: 2rem;
+
+}
+
 
 
 .about-item {
